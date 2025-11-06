@@ -4,21 +4,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black flex flex-col">
       {/* Hero Section */}
-      <main className="flex-1 relative w-full overflow-hidden">
+      <main className="flex-1 relative w-full overflow-hidden pb-20 md:pb-48">
         <div className="relative w-full h-screen flex flex-col items-center justify-center md:justify-center">
           {/* Bull Background Image - larger on mobile */}
           <div
-            className="absolute inset-0 w-full h-full z-0 bg-no-repeat bg-center"
+            className="md:hidden absolute inset-0 w-full h-full z-0 bg-no-repeat"
             style={{
               backgroundImage: "url('/bull.png')",
               backgroundSize: "120% auto",
+              backgroundPosition: "center center",
             }}
           />
           <div
-            className="hidden md:block absolute inset-0 w-full h-full z-0 bg-no-repeat bg-center"
+            className="hidden md:block absolute inset-0 w-full h-full z-0 bg-no-repeat"
             style={{
               backgroundImage: "url('/bull.png')",
-              backgroundSize: "contain",
+              backgroundSize: "80% auto",
+              backgroundPosition: "center 40%",
             }}
           />
 
