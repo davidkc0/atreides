@@ -5,19 +5,27 @@ export default function Home() {
     <div className="min-h-screen bg-black flex flex-col">
       {/* Hero Section */}
       <main className="flex-1 relative w-full overflow-hidden">
-        <div className="relative w-full h-screen flex flex-col items-center justify-center">
-          {/* Bull Background Image */}
+        <div className="relative w-full h-screen flex flex-col items-center justify-center md:justify-center">
+          {/* Bull Background Image - larger on mobile */}
           <div
-            className="absolute inset-0 w-full h-full z-0 bg-contain bg-no-repeat bg-center"
+            className="absolute inset-0 w-full h-full z-0 bg-no-repeat bg-center"
             style={{
               backgroundImage: "url('/bull.png')",
+              backgroundSize: "120% auto",
+            }}
+          />
+          <div
+            className="hidden md:block absolute inset-0 w-full h-full z-0 bg-no-repeat bg-center"
+            style={{
+              backgroundImage: "url('/bull.png')",
+              backgroundSize: "contain",
             }}
           />
 
-          {/* Title Foreground - overlaid on bull */}
-          <div className="relative z-10 text-center px-4">
+          {/* Title Foreground - below bull on mobile, overlaid on desktop */}
+          <div className="relative z-10 text-center px-4 mt-[60vh] md:mt-0">
             <h1
-              className="text-7xl md:text-8xl font-mono text-white drop-shadow-lg"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-mono text-white drop-shadow-lg whitespace-nowrap"
               style={{ textShadow: "0 0 20px rgba(0, 0, 0, 0.5)" }}
             >
               Atreides Games
@@ -29,18 +37,19 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <nav className="flex flex-wrap gap-6 justify-center mb-8">
-            <a href="mailto:hello@atreidesgames.com" className="text-white hover:underline transition-all">
+          <nav className="flex flex-col md:flex-row md:flex-wrap md:gap-6 justify-center items-center mb-8">
+            <a href="mailto:hello@atreidesgames.com" className="text-white hover:underline transition-all mb-2 md:mb-0 whitespace-nowrap">
               hello@atreidesgames.com
             </a>
-            <span className="text-white">·</span>
-            <a href="/privacy" className="text-white hover:underline transition-all">
-              Privacy Policy
-            </a>
-            <span className="text-white">·</span>
-            <a href="/terms" className="text-white hover:underline transition-all">
-              Terms of Service
-            </a>
+            <div className="flex gap-4 md:gap-6 items-center">
+              <a href="/privacy" className="text-white hover:underline transition-all">
+                Privacy Policy
+              </a>
+              <span className="text-white hidden md:inline">·</span>
+              <a href="/terms" className="text-white hover:underline transition-all">
+                Terms of Service
+              </a>
+            </div>
           </nav>
           <div className="text-center text-white text-sm">
             <p>&copy; 2025 Atreides Games. All rights reserved.</p>
