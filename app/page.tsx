@@ -40,8 +40,8 @@ export default function Home() {
       <footer className="bg-card border-t border-border py-12">
         <div className="max-w-4xl mx-auto px-4">
           <nav className="flex flex-col md:flex-row md:flex-wrap md:gap-6 justify-center items-center mb-8">
-            <a href="mailto:hello@atreidesgames.com" className="text-white hover:underline transition-all mb-2 md:mb-0 whitespace-nowrap">
-              hello@atreidesgames.com
+            <a href="mailto:support@atreidesgames.com" className="text-white hover:underline transition-all mb-2 md:mb-0 whitespace-nowrap">
+              support@atreidesgames.com
             </a>
             <div className="flex gap-4 md:gap-6 items-center">
               <a href="/privacy" className="text-white hover:underline transition-all">

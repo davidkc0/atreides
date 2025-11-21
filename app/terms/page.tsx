@@ -118,8 +118,8 @@ export default function TermsOfService() {
           <p>
             If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact
             the Service Provider at{" "}
-            <a href="mailto:hello@atreidesgames.com" className="text-white hover:underline">
-              hello@atreidesgames.com
+            <a href="mailto:support@atreidesgames.com" className="text-white hover:underline">
+              support@atreidesgames.com
             </a>
             .
           </p>
