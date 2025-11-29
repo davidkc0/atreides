@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Atreides Games",
   description: "Experience the power of gaming",
   generator: "v0.app",
+  verification: {
+    google: "SBEhIYWBElA68lfQzSLt8oa_KY-uUc31xBCBtydoQu8",
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
