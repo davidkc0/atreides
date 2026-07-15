@@ -6,14 +6,20 @@ export default function TermsOfService() {
 
         <div className="space-y-6 text-gray-300 leading-relaxed">
           <p>
-            These terms and conditions apply to the Singularity app (hereby referred to as "Application") for mobile
-            devices that was created by Atreides LLC (hereby referred to as "Service Provider") as an Ad Supported
-            service.
+            These terms and conditions apply to the mobile applications published by Atreides LLC (hereby referred to
+            as "Service Provider"), including:
           </p>
 
+          <ul className="list-disc list-inside space-y-2 ml-4">
+            <li>Singularity (an Ad Supported service)</li>
+            <li>Arrow Maze Line Escape (an Ad Supported service)</li>
+            <li>The Lobby — Live Voice Chat</li>
+          </ul>
+
           <p>
-            Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is
-            strongly advised that you thoroughly read and understand these terms prior to using the Application.
+            Each is hereby referred to as an "Application". Upon downloading or utilizing an Application, you are
+            automatically agreeing to the following terms. It is strongly advised that you thoroughly read and
+            understand these terms prior to using an Application.
           </p>
 
           <p>
@@ -31,6 +37,31 @@ export default function TermsOfService() {
             will be clearly communicated to you.
           </p>
 
+          <h2 className="text-2xl font-mono font-bold mt-8 mb-4">User Content & Community Conduct (The Lobby)</h2>
+
+          <p>
+            The Lobby allows you to communicate with other users by live voice and to create content such as a
+            username, a profile emblem, voice notes, custom lobby names, and poll questions (collectively, "User
+            Content"). You are solely responsible for your User Content and your conduct.
+          </p>
+
+          <p>
+            <strong className="text-white">
+              The Service Provider maintains a zero-tolerance policy for objectionable content and abusive users.
+            </strong>{" "}
+            You agree not to use The Lobby to harass, threaten, demean, or intimidate others; to promote hate or
+            violence; to transmit sexually explicit, discriminatory, or otherwise objectionable content; to impersonate
+            others; to spam; or to violate any applicable law.
+          </p>
+
+          <p>
+            The Lobby provides tools to protect yourself and the community: you can mute any user instantly, block any
+            user (blocked users can never be placed in a lobby with you again), and report any user with an evidence
+            clip attached. Reports are reviewed, and the Service Provider may — at its sole discretion and without
+            notice — remove content, suspend, or permanently ban any account that violates these terms. You must be at
+            least 17 years old to use The Lobby.
+          </p>
+
           <p>
             The Application stores and processes personal data that you have provided to the Service Provider in order
             to provide the Service. It is your responsibility to maintain the security of your phone and access to the
@@ -41,9 +72,9 @@ export default function TermsOfService() {
           </p>
 
           <p>
-            Please note that the Application utilizes third-party services that have their own Terms and Conditions.
+            Please note that the Applications utilize third-party services that have their own Terms and Conditions.
             Below are the links to the Terms and Conditions of the third-party service providers used by the
-            Application:
+            Applications:
           </p>
 
           <ul className="list-disc list-inside space-y-2 ml-4">
@@ -55,7 +86,63 @@ export default function TermsOfService() {
                 className="text-white hover:underline"
               >
                 AdMob
-              </a>
+              </a>{" "}
+              (Singularity, Arrow Maze Line Escape)
+            </li>
+            <li>
+              <a
+                href="https://www.agora.io/en/terms-of-service/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                Agora
+              </a>{" "}
+              (The Lobby — real-time voice)
+            </li>
+            <li>
+              <a
+                href="https://supabase.com/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                Supabase
+              </a>{" "}
+              (The Lobby — accounts and data)
+            </li>
+            <li>
+              <a
+                href="https://onesignal.com/tos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                OneSignal
+              </a>{" "}
+              (The Lobby — push notifications)
+            </li>
+            <li>
+              <a
+                href="https://www.apple.com/legal/internet-services/itunes/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                Apple Services (Sign in with Apple, Game Center)
+              </a>{" "}
+              (The Lobby)
+            </li>
+            <li>
+              <a
+                href="https://policies.google.com/terms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                Google (Sign-In)
+              </a>{" "}
+              (The Lobby)
             </li>
           </ul>
 
@@ -111,7 +198,7 @@ export default function TermsOfService() {
             the new Terms and Conditions on this page.
           </p>
 
-          <p>These terms and conditions are effective as of 2025-11-06</p>
+          <p>These terms and conditions are effective as of 2026-07-15</p>
 
           <h2 className="text-2xl font-mono font-bold mt-8 mb-4">Contact Us</h2>
 
