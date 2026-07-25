@@ -9,8 +9,9 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _sourceCodePro = Source_Code_Pro({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Atreides Games",
-  description: "Experience the power of gaming",
+  title: "Atreides Games — Ex Libris, Singularity, Arrow Maze & Barrier",
+  description:
+    "Atreides Games builds apps for iPhone: Ex Libris, a book tracking app for readers; Singularity: Black Hole Arcade; Arrow Maze: Line Escape; and Barrier, a strategy board game.",
   generator: "v0.app",
   verification: {
     google: "SBEhIYWBElA68lfQzSLt8oa_KY-uUc31xBCBtydoQu8",
