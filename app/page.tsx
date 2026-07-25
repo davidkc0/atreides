@@ -36,6 +36,34 @@ export default function Home() {
         </div>
       </main>
 
+      {/* Apps */}
+      <section id="apps" className="bg-black border-t border-border py-16">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-mono text-white mb-10 text-center">Our Apps</h2>
+
+          <div className="border border-border rounded-lg p-6 md:p-8">
+            <h3 className="text-xl md:text-2xl font-mono text-white mb-3">Ex Libris</h3>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Ex Libris is a book tracking app for iPhone. Scan a book&apos;s barcode or cover to add it to your
+              shelf, follow your reading progress page by page, scan and keep the passages you love, and see what
+              your friends are reading. Signing in with Apple or Google backs your library up so it restores on a new
+              phone, and lets you add friends, recommend books, and talk about what you&apos;re reading together.
+            </p>
+            <div className="flex flex-wrap gap-4 text-sm">
+              <a href="/exlibris/privacy" className="text-white underline hover:no-underline">
+                Privacy Policy
+              </a>
+              <a href="/exlibris/terms" className="text-white underline hover:no-underline">
+                Terms of Service
+              </a>
+              <a href="mailto:exlibris@atreidesgames.com" className="text-white underline hover:no-underline">
+                exlibris@atreidesgames.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-card border-t border-border py-12">
         <div className="max-w-4xl mx-auto px-4">
